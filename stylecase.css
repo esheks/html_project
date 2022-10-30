@@ -1,0 +1,130 @@
+body{
+    border: 0px solid black;
+    background-color: lightgray;
+    border-radius: 0px
+}
+h1{background-color: burlywood;
+    text-align: center;
+    color: black;
+    font-family: inherit; 
+}
+/*.picture,.info{width: 66.6%;;}
+.picture{
+    height: 50px;
+    border: 33.3% solid black;
+     
+}
+.info{
+    text-align: left;
+}*/
+.pics{
+    padding: 10px;
+
+}
+.picture{
+    border: 33% solid black;
+    height: 200px;
+    border-image: 10px;
+    border-radius: 50%;
+    border-style: solid;
+    
+     
+}
+.info{
+    float: right;
+    
+    clear: both; 
+}
+
+
+.container{
+    border:1px solid black;
+    width: 100%;
+    
+    border-collapse: collapse;
+
+}
+hr{
+    border-color: blue;
+     
+    
+  
+}
+.center{
+    text-align: center;
+}
+.icon{
+    background-color: burlywood;
+    color: black
+}
+h3{
+    font-family: cursive;
+    color: black;
+    margin: 1px;
+    padding: 2px;
+
+}
+#articleOne{
+    background-color: burlywood;
+    position: static;
+    font-family: cursive;
+    border-bottom: 2px solid black;
+    text-size-adjust: 0;
+    padding: 1%;
+    margin: 0%;
+}
+#articleTwo{
+    background-color: burlywood;
+    position: static;
+    font-family: cursive;
+    border-bottom: 2px solid black;
+    text-size-adjust: 0;
+    padding: 1%;
+    margin: 0%;
+    
+   
+}
+#articleThree{
+    background-color: burlywood;
+    position: static;
+    font-family: cursive;
+    border-bottom: 0px solid black;
+    text-size-adjust: 0;
+    padding: 1%;
+    margin: 0%; 
+}
+.upcomingEvents{
+    float: left;
+    background: burlywood;
+    height: 100px;
+    width: 31.5%;
+    margin: 10px;
+}
+.upcoming{
+    float: left;
+    background: burlywood;
+    height: 100px;
+    width: 31.5%;
+    margin: 10px;
+}
+.upcomingOne{
+    float: left;
+    background: burlywood;
+    height: 100px;
+    width: 31.5%;
+    margin: 10px;
+}
+.containers{
+    width: 100%;
+    height: 200px;
+    background: burlywood;
+    margin: 5px
+}
+table{
+    margin: 70px;
+}
+.flex-menu{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}

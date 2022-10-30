@@ -1,0 +1,36 @@
+.oscar {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .card {
+    border: 2px solid red;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    width: 100%;
+  }
+  
+  @media (max-width:800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  .flex-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+  }
+  
+  .flex-child {
+    background-color: yellow;
+    margin: 2px;
+    font-size: 1.5em;
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+  }

@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.button-list{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+
+.button-list button{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+img{
+	width: 200px;
+}
+
+#top_img{
+	display: none;
+}
+
+@media screen and (max-width: 360px){
+	#top_img{
+		display: block;
+	}
+	
+	.button-list{
+		float: none;
+	}
+}
+</style>
+</head>
+<body>
+
+<img id="top_img" src="images.jpg" >
+<div style="width: 500px">
+	
+	<div class="button-list">
+		<button type="button">Button 1</button>
+		<button type="button">Button 2</button>
+		<button type="button">Button 3</button>
+	</div>
+	
+	<img id="img" src="images.jpg" >
+	<div style="clear: both"></div>
+</div>
+
+</body>
+</html>
